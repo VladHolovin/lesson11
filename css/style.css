@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 110px;
+    width: 200px;
+    background-color: silver;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fixed{
+    position: fixed;
+    background-color: red;
+    left: 350px;
+    top: 10px;
+}
+.sticky{
+    position: sticky;
+    background-color: yellow;
+    bottom:600px;
+    left: 600px;
+}
+.absolute{
+    position: absolute;
+    background-color: violet;
+    top: 0px;
+    right: 0px;
+}
+.relative{
+    position: relative;
+    background-color: turquoise;
+    top: 35px;
+    left: 150px;
+
+}
+.logo{
+    position: absolute;
+    right: 10px;
+    top: 300px;
+    height: 500px;
+    width: 500px;
+    background: rgb(2,0,36);
+    background:radial-gradient(circle at 15% 90%, rgba(236,153,70,1) 5%, rgba(221,42,42,1) 28%, rgba(161,40,155,1) 57%, rgba(94,5,133,1) 77%);
+    border-radius: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Insta{
+    background-color: transparent;
+    border: 30px solid white;
+    border-radius:39% ;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border: 35px solid white;
+    background-color: transparent;
+    border-radius: 45%;
+}
+.circle-mini{
+    position: absolute;
+    border-radius: 50%;
+    border: 15px solid white;
+    top: 125px;
+    right: 140px;
+    
+}
+.Japan{
+    position: absolute;
+    right: 10px;
+    top: 850px;
+    height: 300px;
+    width: 500px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Japan-circle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
